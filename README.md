@@ -11,7 +11,7 @@ This repository only hosts **signed release packages**. The source code is priva
 - **USB stick (recommended for plants):** on an office PC with fast internet, PowerShell as Administrator:
 
   ```powershell
-  irm https://github.com/buddi0812/hawk-ai-releases/releases/latest/download/make-usb.ps1 | iex
+  [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; irm https://github.com/buddi0812/hawk-ai-releases/releases/latest/download/make-usb.ps1 | iex
   ```
 
   Then plug the stick into the box and double-click **Hawk-AI Setup**.
