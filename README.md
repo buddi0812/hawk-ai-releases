@@ -15,7 +15,7 @@ This repository only hosts **signed release packages**. The source code is priva
   ```
 
   Then plug the stick into the box and double-click **Hawk-AI Setup**.
-- **Update an installed box:** open the dashboard → System → Updates. For a box on 0.4.2 or older, unzip
+- **Update an installed box:** open the dashboard → System → Updates. For a box on 0.4.4 or older, unzip
   `hawk-update-<version>.zip` on the box and double-click **Apply Hawk-AI update**.
 
 Every package is signed by Defect Scanner; the box refuses anything else.
